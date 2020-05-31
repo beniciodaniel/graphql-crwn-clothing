@@ -9,7 +9,7 @@ const GET_COLLECTIONS = gql`
   {
     collections {
       id
-      title
+      title 
       items {
         id
         name

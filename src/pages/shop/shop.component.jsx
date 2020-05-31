@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 
 import { default as CollectionsOverview } from '../../components/collections-overview/collections-overview.container'; //pra nao ter que mudar o nome do codigo
 
-import CollectionPage from '../collection/collection.component';
+import { default as CollectionPage } from '../collection/collection.container';
 
 const ShopPage = ({ match }) => (
   <div className='shop-page'>
